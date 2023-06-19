@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital@1&family=Pathway+Extreme:ital,wght@1,502&display=swap');
+
+.tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tab label {
+    font-family: 'Pathway Extreme';
+    font-size: 30px;
+}
+.tab span {
+    display: flex;
+    width: 750px;
+    height: 90px;
+    justify-content: space-around;
+    align-items: center;
+}
+#btn {
+    border: solid 5px rgb(2, 207, 2);
+    border-radius: 30px;
+    background-color: rgb(218, 218, 218);
+    width: 50px;
+    height: 50px;
+}
+#btn:hover {
+    transform: scale(1.1);
+}
